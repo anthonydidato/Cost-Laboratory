@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-27",
+  "mission": 1,
+  "venture": {
+    "name": null,
+    "display_name": "Food Preservation Smart Refrigerator",
+    "name_status": "Descriptive label only; no business name supplied",
+    "concept": "A refrigerator/device that displays food temperature, estimates remaining freshness, offers preservation guidance, and adjusts cooling.",
+    "primary_product": "Smart refrigerator; full refrigerator assumed for this pricing study",
+    "target_customers": "Homeowners ages 25–80, any gender, especially health-conscious shoppers and people replacing an older or unreliable refrigerator. Income range unspecified.",
+    "customer_needs": [
+      "Reduce food waste",
+      "Protect grocery spending",
+      "Dependable cooling",
+      "Easy operation across age groups"
+    ],
+    "value_proposition": "Help households manage food freshness and waste through understandable food information and cooling controls. Benefits are proposed, not validated.",
+    "geographic_market": "Eastern United States initially; eventual North American expansion",
+    "distribution_channels": null,
+    "features": [
+      "On-fridge information screen",
+      "Food-specific temperature information",
+      "Estimated spoilage timing",
+      "Preservation guidance",
+      "Automatic temperature adjustment"
+    ],
+    "assumptions": [
+      "Full refrigerator rather than retrofit device is the comparison basis. Capacity and installation format remain unspecified.",
+      "Competitor customer segments and positioning are analyst interpretations of features and price, not measured demographics."
+    ],
+    "unresolved_details": [
+      "Business name",
+      "Capacity and size",
+      "Distribution channels",
+      "Sensor design and technical feasibility",
+      "Costs and warranty",
+      "Validated freshness prediction accuracy"
+    ]
+  },
+  "competitors": [
+    {
+      "competitor_id": "C01",
+      "name": "Samsung",
+      "classification": "Direct",
+      "website": "https://www.samsung.com/us/",
+      "geographic_market": "United States; local delivery depends on ZIP",
+      "target_customers": "Connected-home shoppers seeking food inventory and screen features (analyst inference)",
+      "main_products": "Bespoke AI refrigerators",
+      "positioning": "Premium smart refrigerator; highest representative price in selected sample",
+      "differentiating_features": [
+        "32-inch Family Hub screen",
+        "AI food inventory recognition",
+        "Convertible FlexZone"
+      ],
+      "reason_for_inclusion": "Closest selected alternative to a screen-based food-management refrigerator.",
+      "feature_source_ids": [
+        "S01",
+        "S05",
+        "S06"
+      ],
+      "representative_offer_id": "P01"
+    },
+    {
+      "competitor_id": "C02",
+      "name": "LG",
+      "classification": "Direct",
+      "website": "https://www.lg.com/us/",
+      "geographic_market": "United States; local availability not established",
+      "target_customers": "Homeowners prioritizing counter-depth design, viewing access and cooling convenience (analyst inference)",
+      "main_products": "ThinQ and InstaView refrigerators",
+      "positioning": "Premium design and convenience; lowest representative price in selected sample",
+      "differentiating_features": [
+        "Mirror InstaView window",
+        "Door Cooling+",
+        "ThinQ Care",
+        "Multiple ice types"
+      ],
+      "reason_for_inclusion": "Alternative refrigerator purchase addressing cooling, visibility and usability.",
+      "feature_source_ids": [
+        "S02"
+      ],
+      "representative_offer_id": "P02"
+    },
+    {
+      "competitor_id": "C03",
+      "name": "GE Profile",
+      "classification": "Direct",
+      "website": "https://www.geappliances.com/ge/profile.htm",
+      "geographic_market": "United States via appliance retailers; ZIP-specific stock not checked",
+      "target_customers": "Households seeking grocery organization and connected kitchen tools (analyst inference)",
+      "main_products": "Smart French-door refrigerators",
+      "positioning": "Premium connected kitchen; middle representative price in selected sample",
+      "differentiating_features": [
+        "Kitchen Assistant display",
+        "Barcode shopping-list entry",
+        "Produce-drawer camera",
+        "Adjustable temperature drawer"
+      ],
+      "reason_for_inclusion": "Screen and inventory tools overlap the proposed food-waste benefit.",
+      "feature_source_ids": [
+        "S03",
+        "S04"
+      ],
+      "representative_offer_id": "P04"
+    }
+  ],
+  "pricing_offers": [
+    {
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per refrigerator",
+      "billing_period": null,
+      "research_date": "2026-10-27",
+      "subscription_required": null,
+      "free_trial": null,
+      "additional_charges": "Tax, delivery, installation, water-line work, haul-away and optional protection depend on seller/location; amounts not established. Replacement filters are extra.",
+      "comparison_group": "US full refrigerator purchase; varying capacities and channel terms",
+      "offer_id": "P01",
+      "competitor_id": "C01",
+      "competitor_name": "Samsung",
+      "product_name": "RF29DB9900QDAA Bespoke AI Family Hub 29 cu ft",
+      "description": "Full-depth stainless 4-Door Flex refrigerator",
+      "current_listed_price": 3799,
+      "regular_price": null,
+      "reference_price": 4999,
+      "reference_price_label": "Advertised comparison/reference price; historical selling price unconfirmed",
+      "promotional_price": 3799,
+      "representative_product": true,
+      "source_url": "https://www.samsung.com/us/business/refrigerators/french-door/bespoke-4-door-flex-refrigerator-29-cu-ft-with-family-hub-32-and-ai-vision-in-stainless-steel-sku-rf29db9900qdaa/",
+      "source_type": "Official manufacturer business product page",
+      "verification_status": "Verified",
+      "features": [
+        "32-inch screen",
+        "AI food inventory",
+        "FlexZone cooling"
+      ],
+      "research_notes": "Business-channel listing confirmed. Consumer page showed $0 placeholder and $4,999 reference; $0 rejected. No business account eligibility or checkout validated. Search coupon not applied.",
+      "source_id": "S01",
+      "customization": "Changeable panels; prices for custom panels not researched",
+      "bundles_discounts": "Advertised $1,200 reduction; account-only offers and financing excluded"
+    },
+    {
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per refrigerator",
+      "billing_period": null,
+      "research_date": "2026-10-27",
+      "subscription_required": null,
+      "free_trial": null,
+      "additional_charges": "Tax, delivery, installation, water-line work, haul-away and optional protection depend on seller/location; amounts not established. Replacement filters are extra.",
+      "comparison_group": "US full refrigerator purchase; varying capacities and channel terms",
+      "offer_id": "P02",
+      "competitor_id": "C02",
+      "competitor_name": "LG",
+      "product_name": "LRYKC2606S Mirror InstaView 26 cu ft",
+      "description": "Stainless counter-depth French-door refrigerator",
+      "current_listed_price": 3199,
+      "regular_price": null,
+      "reference_price": 4399,
+      "reference_price_label": "Advertised comparison/reference price; historical selling price unconfirmed",
+      "promotional_price": 3199,
+      "representative_product": true,
+      "source_url": "https://www.lg.com/us/refrigerators/lg-lrykc2606s-french-3-door-refrigerator",
+      "source_type": "Official manufacturer product page",
+      "verification_status": "Verified",
+      "features": [
+        "Mirror InstaView",
+        "Door Cooling+",
+        "ThinQ Care",
+        "Four ice types"
+      ],
+      "research_notes": "Opened page price used instead of older $2,999 search listing. No evidence this window is a food-information touchscreen.",
+      "source_id": "S02",
+      "customization": "Stainless steel finish; black stainless separately recorded",
+      "bundles_discounts": "Page advertises free single-door fridge and kitchen-package savings, subject to terms; not deducted from price"
+    },
+    {
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per refrigerator",
+      "billing_period": null,
+      "research_date": "2026-10-27",
+      "subscription_required": null,
+      "free_trial": null,
+      "additional_charges": "Tax, delivery, installation, water-line work, haul-away and optional protection depend on seller/location; amounts not established. Replacement filters are extra.",
+      "comparison_group": "US full refrigerator purchase; varying capacities and channel terms",
+      "offer_id": "P03",
+      "competitor_id": "C02",
+      "competitor_name": "LG",
+      "product_name": "LRYKC2606D Mirror InstaView 26 cu ft",
+      "description": "Black stainless counter-depth finish variant",
+      "current_listed_price": 4499,
+      "regular_price": null,
+      "reference_price": null,
+      "reference_price_label": "Advertised comparison/reference price; historical selling price unconfirmed",
+      "promotional_price": null,
+      "representative_product": false,
+      "source_url": "https://www.lg.com/us/refrigerators/lg-lrykc2606s-french-3-door-refrigerator",
+      "source_type": "Official manufacturer product page variant selector",
+      "verification_status": "Verified",
+      "features": [
+        "Mirror InstaView",
+        "Door Cooling+",
+        "ThinQ Care",
+        "Four ice types"
+      ],
+      "research_notes": "Black stainless selector on stainless model page explicitly lists $4,499; dedicated D page did not expose a price. No reduction visible for this variant.",
+      "source_id": "S02",
+      "customization": "Black stainless steel",
+      "bundles_discounts": "No quantified discount applied"
+    },
+    {
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per refrigerator",
+      "billing_period": null,
+      "research_date": "2026-10-27",
+      "subscription_required": null,
+      "free_trial": null,
+      "additional_charges": "Tax, delivery, installation, water-line work, haul-away and optional protection depend on seller/location; amounts not established. Replacement filters are extra.",
+      "comparison_group": "US full refrigerator purchase; varying capacities and channel terms",
+      "offer_id": "P04",
+      "competitor_id": "C03",
+      "competitor_name": "GE Profile",
+      "product_name": "PVD28HYYFS Kitchen Assistant 27.9 cu ft",
+      "description": "Standard-depth four-door smart French-door refrigerator",
+      "current_listed_price": 3499,
+      "regular_price": null,
+      "reference_price": 4899,
+      "reference_price_label": "Advertised comparison/reference price; historical selling price unconfirmed",
+      "promotional_price": 3499,
+      "representative_product": true,
+      "source_url": "https://www.homedepot.com/p/GE-Profile-27-9-Cu-Ft-Smart-4-Door-French-Door-Refrigerator-with-Kitchen-Assistant-Scan-to-Shopping-List-Technology-PVD28HYYFS/341368073",
+      "source_type": "Retailer product page directly opened",
+      "verification_status": "Partially Verified",
+      "features": [
+        "Touch display",
+        "Barcode shopping list",
+        "Produce-drawer camera",
+        "Four-setting temperature drawer"
+      ],
+      "research_notes": "Seller page confirmed listed price; manufacturer price not corroborated. Conservative retailer classification under mission rubric. No per-item spoilage detection established.",
+      "source_id": "S03",
+      "customization": "Stainless finish; other capacities not priced",
+      "bundles_discounts": "Advertised $1,400 reduction; financing excluded"
+    },
+    {
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per refrigerator",
+      "billing_period": null,
+      "research_date": "2026-10-27",
+      "subscription_required": null,
+      "free_trial": null,
+      "additional_charges": "Tax, delivery, installation, water-line work, haul-away and optional protection depend on seller/location; amounts not established. Replacement filters are extra.",
+      "comparison_group": "US full refrigerator purchase; varying capacities and channel terms",
+      "offer_id": "P05",
+      "competitor_id": "C03",
+      "competitor_name": "GE Profile",
+      "product_name": "PGD29BYTFS AutoFill Pitcher 29 cu ft",
+      "description": "Standard-depth four-door refrigerator with door-in-door",
+      "current_listed_price": 3199,
+      "regular_price": null,
+      "reference_price": 4399,
+      "reference_price_label": "Advertised comparison/reference price; historical selling price unconfirmed",
+      "promotional_price": 3199,
+      "representative_product": false,
+      "source_url": "https://www.homedepot.com/p/GE-Profile-29-cu-ft-Smart-4-Door-French-Door-Refrigerator-Stainless-Steel-w-Door-in-Door-Dual-Dispense-AutoFill-Pitcher-PGD29BYTFS/325792387",
+      "source_type": "Retailer product page directly opened",
+      "verification_status": "Partially Verified",
+      "features": [
+        "Adjustable temperature drawer",
+        "Dual evaporators",
+        "Soft-close drawers",
+        "AutoFill pitcher"
+      ],
+      "research_notes": "Seller page confirmed price; no manufacturer corroboration. Additional lower-price alternative, not the representative screen/inventory model.",
+      "source_id": "S04",
+      "customization": "Stainless finish",
+      "bundles_discounts": "Advertised $1,200 reduction; financing excluded"
+    }
+  ],
+  "comparison": {
+    "basis": "One representative offer per brand; USD one-time appliance price before additional charges. Indicative cross-channel comparison includes P04 Partially Verified and P01 business terms.",
+    "representative": {
+      "offer_ids": [
+        "P01",
+        "P02",
+        "P04"
+      ],
+      "count": 3,
+      "minimum": 3199,
+      "maximum": 3799,
+      "mean": 3499,
+      "median": 3499
+    },
+    "verified_representatives_only": {
+      "offer_ids": [
+        "P01",
+        "P02"
+      ],
+      "count": 2,
+      "minimum": 3199,
+      "maximum": 3799,
+      "mean": 3499,
+      "median": 3499.0
+    },
+    "brand_ranges": [
+      {
+        "competitor_id": "C01",
+        "minimum": 3799,
+        "maximum": 3799
+      },
+      {
+        "competitor_id": "C02",
+        "minimum": 3199,
+        "maximum": 4499
+      },
+      {
+        "competitor_id": "C03",
+        "minimum": 3199,
+        "maximum": 3499
+      }
+    ]
+  },
+  "preliminary_pricing_recommendation": {
+    "minimum_price": 3200,
+    "maximum_price": 3800,
+    "currency": "USD",
+    "unit": "per full refrigerator",
+    "status": "Preliminary strategic hypothesis, not optimal price",
+    "rationale": "Near the $3,199 LG cooling/convenience benchmark and $3,499 GE Kitchen Assistant offer, extending to the $3,799 Samsung business-channel benchmark only if item-level freshness guidance is independently demonstrated.",
+    "positioning": "Near the sampled premium smart-fridge alternatives; lower than their displayed reference anchors. Not a budget-market claim.",
+    "conditions": [
+      "Validate production and service costs",
+      "Test household willingness to pay",
+      "Confirm retail checkout benchmarks and local availability",
+      "Validate sensing, prediction accuracy and usability before premium claims"
+    ],
+    "retrofit_price_recommendation": null
+  },
+  "research_limitations": [
+    "Only three deliberately selected brands and five offers; not a market census or demand study.",
+    "One representative offer per brand prevents over-weighting brands with more recorded variations.",
+    "GE prices are retailer observations, conservatively Partially Verified; Samsung is a business-channel benchmark, not a confirmed household checkout offer.",
+    "Prices are dated observations and may change. ZIP-specific stock, taxes, shipping, installation and checkout eligibility were not tested.",
+    "Reference prices are advertised anchors, not evidence of historical transactions. Regular-price fields remain null.",
+    "Capacities, depth and features differ. Per-refrigerator prices compare purchase budgets, not equivalent performance.",
+    "Food-specific sensing, reliable spoilage prediction and autonomous preservation were not demonstrated by this research. Do not promise elimination of food waste or food-safety guarantees.",
+    "No manufacturing costs, willingness to pay, service costs, margins or break-even analysis were supplied.",
+    "Venture name, channels, size and whether product is a retrofit device remain unresolved. A retrofit would require separate research.",
+    "Prior workspace Reddit counts and fictional focus-group comments were not independently revalidated or treated as pricing evidence."
+  ],
+  "sources": [
+    {
+      "source_id": "S01",
+      "url": "https://www.samsung.com/us/business/refrigerators/french-door/bespoke-4-door-flex-refrigerator-29-cu-ft-with-family-hub-32-and-ai-vision-in-stainless-steel-sku-rf29db9900qdaa/",
+      "type": "Official business product page",
+      "purpose": "Samsung price and product identity",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S02",
+      "url": "https://www.lg.com/us/refrigerators/lg-lrykc2606s-french-3-door-refrigerator",
+      "type": "Official product page",
+      "purpose": "LG prices, variants and features",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S03",
+      "url": "https://www.homedepot.com/p/GE-Profile-27-9-Cu-Ft-Smart-4-Door-French-Door-Refrigerator-with-Kitchen-Assistant-Scan-to-Shopping-List-Technology-PVD28HYYFS/341368073",
+      "type": "Retailer product page",
+      "purpose": "GE Kitchen Assistant price and features",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S04",
+      "url": "https://www.homedepot.com/p/GE-Profile-29-cu-ft-Smart-4-Door-French-Door-Refrigerator-Stainless-Steel-w-Door-in-Door-Dual-Dispense-AutoFill-Pitcher-PGD29BYTFS/325792387",
+      "type": "Retailer product page",
+      "purpose": "GE AutoFill price and features",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S05",
+      "url": "https://image-us.samsung.com/SamsungUS/home/home-appliances/refrigerators/bespoke/rf23db9900qdaa/fit/RF29DB9900_V3.pdf",
+      "type": "Official specification sheet",
+      "purpose": "Samsung capacity, cooling and customization",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S06",
+      "url": "https://news.samsung.com/us/samsung-joins-forces-with-instacart-enhance-kitchen-experiences-through-hallmark-innovation-ces2025/",
+      "type": "Official announcement dated January 2 2025",
+      "purpose": "Food recognition limitations; model and software dependent",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S07",
+      "url": "https://www.samsung.com/us/refrigerators/french-door/bespoke-4-door-flex-refrigerator-29-cu-ft-with-family-hub-32-and-ai-vision-in-stainless-steel-sku-rf29db9900qdaa/",
+      "type": "Official consumer product page",
+      "purpose": "Consumer price ambiguity; excluded from numeric comparison",
+      "date_checked": "2026-10-27"
+    }
+  ],
+  "opportunities": [
+    {
+      "observation": "Samsung offers food inventory recognition; its dated announcement notes manual entry and recognition limits. GE offers shopping-list and camera tools.",
+      "interpretation": "Test whether low-effort food-specific guidance solves problems beyond inventory viewing.",
+      "evidence_source_ids": [
+        "S03",
+        "S06"
+      ]
+    },
+    {
+      "observation": "LG emphasizes cooling and care monitoring, and the venture workspace emphasizes reliability and usability.",
+      "interpretation": "Prioritize simple controls, independent performance testing and clear service terms.",
+      "evidence_source_ids": [
+        "S02"
+      ]
+    },
+    {
+      "observation": "Promotions and bundles appear in the sampled offers.",
+      "interpretation": "Test an included-core-software bundle with onboarding and optional warranty; these are proposals, not observed competitor subscriptions.",
+      "evidence_source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    }
+  ]
+}
