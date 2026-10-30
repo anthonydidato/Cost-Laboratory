@@ -17,3 +17,13 @@ Completed in isolated `?test=1` mode, not the user's decision storage:
 - Downloaded browser DOCX is a valid OOXML ZIP and contains all 10 report sections, the same decision ID, justification, classification and financial results as the downloaded JSON. QA exports are marked as tests and remain outside published assets.
 
 Further final visual and deployment checks are recorded below.
+
+## Final visual and live deployment verification — 2026-10-30
+
+- Inspected rendered report pages; removed the trailing orphan paragraph. The final nine-page report has a complete confirmation record and no clipped content.
+- Inspected desktop (1440 px) and mobile (390 px) layouts, financial charts, and competitor comparisons. Mobile document width equals viewport width; wide data tables scroll within their containers.
+- Edited chart quantity range and volume multipliers; the displayed ranges and unit assumptions updated.
+- GitHub Actions build and deployment succeeded for commit c39135f (run 41105085588).
+- Opened the live GitHub Pages application, evaluated and confirmed an isolated QA decision, and downloaded both exports. The live DOCX is valid OOXML; JSON parses and matches its decision ID, justification and risk classification (decision-1793384119346).
+- Verified live financial charts and volume scenario interaction; no browser console errors were observed.
+- Returned the browser to the normal application with “Exploration in progress.” No real student decision was confirmed. Original venture website and Mission 2 were not modified.
